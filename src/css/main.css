@@ -1,0 +1,20 @@
+/*.content_Temp{*/
+  /*height:100%*/
+/*}*/
+.padding{
+	padding: 10px
+}
+.firstRow{
+	border-bottom: 1px dashed #dbdbdb;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+.margin10{
+	margin-top: 10px;
+    margin-bottom: 10px
+}
+.uploaderBtn{display:inline-block; position:relative; overflow:hidden;}
+.uploaderBtn input[type='file']{position:absolute; right:0; top:0; font-size:100px; opacity:0; filter:alpha(opacity=0);}
+.topTool{
+	margin:10px 0;
+}
