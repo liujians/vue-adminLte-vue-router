@@ -10,6 +10,8 @@
 
 [vue-router](https://router.vuejs.org/zh-cn/index.html)：大型项目前后端分离通常要用前端路由
 
+vue和vue-router版本为2.0
+
 ###项目效果
 
 ![](/GIF_sys.gif)
