@@ -1,7 +1,7 @@
 # vue-adminLte-vue-router
 
 最近在整合的vue+vue-router+adminLte，用来做响应式的比较美观的SPA管理系统
-
+项目路径：https://github.com/liujians/vue-adminLte-vue-router
 ###介绍
 
 [adminLte](https://almsaeedstudio.com/themes/AdminLTE/index2.html)：很好看的一套管理系统框架，适合做SPA应用
