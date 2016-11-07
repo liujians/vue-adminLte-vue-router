@@ -21,9 +21,9 @@ module.exports = {
       'src': path.resolve(__dirname, '../src'),
       'assets': path.resolve(__dirname, '../src/assets'),
       'components': path.resolve(__dirname, '../src/components'),
-      'jquery': __dirname + '/../src/js/jquery.js',
-      'moment':__dirname + '/../src/plugins/daterangepicker/moment.js',
-      'iCheck':__dirname +'/../src/plugins/iCheck/icheck.min.js'
+      'jquery': path.resolve(__dirname, '../src/js/jquery.js'),
+      'moment':path.resolve(__dirname, '../src/plugins/daterangepicker/moment.js'),
+      'iCheck':path.resolve(__dirname, '../src/plugins/iCheck/icheck.min.js')
     }
   },
   plugins:[
@@ -48,7 +48,7 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel',
         include: projectRoot,
-        exclude: /node_modules/
+        exclude: /(node_modules|plugins)/
       },
       {
         test: /\.json$/,
