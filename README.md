@@ -32,4 +32,5 @@ vue和vue-router版本为2.0
 
 *Please make sure that your node in 4.0.0 above*
 
+
 SPA about vue-cli+adminLte+vue-router
