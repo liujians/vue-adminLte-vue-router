@@ -223,13 +223,6 @@
     <router-view></router-view>
     <!-- /.content-wrapper -->
 
-   <!--  <footer class="main-footer">
-      <div class="pull-right hidden-xs">
-        <b>Version</b> 2.0.0
-      </div>
-      <strong>
-        Copyright &copy; 2016 - 2018  汇金行版权所有
-    </footer> -->
 
     <!-- Control Sidebar -->
     <aside class="control-sidebar control-sidebar-dark">
