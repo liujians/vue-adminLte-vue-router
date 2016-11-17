@@ -9,7 +9,7 @@ require("!style!css!./plugins/iCheck/flat/blue.css");
 require("!style!css!./plugins/daterangepicker/daterangepicker.css");
 
 
-console.log(1111111111111)
+
 require("./router.js")
 
 require("./plugins/sparkline/jquery.sparkline.min.js")

@@ -1,5 +1,7 @@
 # vue-adminLte-vue-router
 
+by liujians [http://liujians.me](http://liujians.me)
+
 最近在整合的vue+vue-router+adminLte，用来做响应式的比较美观的SPA管理系统
 项目路径：https://github.com/liujians/vue-adminLte-vue-router
 ###介绍
@@ -32,5 +34,7 @@ vue和vue-router版本为2.0
 
 *Please make sure that your node in 4.0.0 above*
 
+欢迎一起学习交流
+<a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=9bcf9f7be59b471456c1feec466dab4d54da7ab35c834b8e821ec17177fb33b3"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="前端群居所" title="前端群居所"></a>
 
 SPA about vue-cli+adminLte+vue-router
