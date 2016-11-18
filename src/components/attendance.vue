@@ -138,7 +138,7 @@ export default {
     contentHeader
   },
   mounted(){
-    alert("抓取到vuex数据："+this.$store.state)
+    alert("抓取到vuex数据："+this.$store.state.test)
   	$('input[name="daterange"]').daterangepicker({
   		ranges: {
             '今天': [moment(), moment()],

@@ -24,6 +24,8 @@ Ps:更新项目别忘了安装vuex依赖
 
 ###项目效果
 
+更多更复杂的整合结果可以看我的博客：[http://liujians.me](http://liujians.me)
+
 ![](/GIF_sys.gif)
 
 ###说明
