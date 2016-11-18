@@ -18,8 +18,7 @@ vue和vue-router版本为2.0
 
 Ps:更新项目别忘了安装vuex依赖
 
-	import store from '../store/';
-	//需要使用的页面引用
+	this.$store.state
 	//具体的store文件在src/store下面
 	//最新版的demo中、attendance页面可以看到alert的数据
 

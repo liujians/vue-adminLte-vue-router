@@ -117,7 +117,6 @@
 </template>
 <script>
 import contentHeader from './content_header'
-import store from '../store/';
 export default {
   data() {
   	return {
@@ -139,7 +138,7 @@ export default {
     contentHeader
   },
   mounted(){
-    alert("抓取到vuex数据："+store.state.test)
+    alert("抓取到vuex数据："+this.$store.state)
   	$('input[name="daterange"]').daterangepicker({
   		ranges: {
             '今天': [moment(), moment()],
