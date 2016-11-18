@@ -16,6 +16,8 @@ vue和vue-router版本为2.0
 
 **2016-11-18更新加入 Vuex2.0，使大型应用的状态共享更方便**
 
+Ps:更新项目别忘了安装vuex依赖
+
 	import store from '../store/';
 	//需要使用的页面引用
 	//具体的store文件在src/store下面
