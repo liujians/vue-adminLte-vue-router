@@ -11,7 +11,7 @@ import overtime_petitioner from './components/overtime_petitioner.vue'
 import overtime_record from './components/overtime_record.vue'
 import overtime_pass from './components/overtime_pass.vue'
 import import_data from './components/import_data.vue'
-
+import store from './store/index'
 
 var pop = index;
 
@@ -55,6 +55,7 @@ const router = new VueRouter({
 // 记得要通过 router 配置参数注入路由，
 // 从而让整个应用都有路由功能
 const app = new Vue({
+  store,
   router,
   render: h => h(index)
 }).$mount('#app')
