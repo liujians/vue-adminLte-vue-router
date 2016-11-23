@@ -22,6 +22,8 @@ Ps:更新项目别忘了安装vuex依赖
 	//具体的store文件在src/store下面
 	//最新版的demo中、attendance页面可以看到alert的数据
 
+第一次加载会判断移动端的跳转会自动收起菜单
+
 ###项目效果
 
 更多更复杂的整合结果可以看我的博客：[http://liujians.me](http://liujians.me)
