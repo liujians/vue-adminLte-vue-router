@@ -4,7 +4,7 @@ import VueRouter from 'vue-router'
 import home from './components/home.vue'
 // import App from './App'
 import index from './index'
-import Hello from './components/Hello.vue'
+
 import attendance from './components/attendance.vue'
 import leave_record from './components/leave_record.vue'
 import overtime_petitioner from './components/overtime_petitioner.vue'
@@ -12,8 +12,7 @@ import overtime_record from './components/overtime_record.vue'
 import overtime_pass from './components/overtime_pass.vue'
 import import_data from './components/import_data.vue'
 import store from './store/index'
-
-var pop = index;
+import Hello from './components/Hello.vue'
 
 Vue.use(VueRouter)
 

@@ -185,7 +185,8 @@
             </div>
           </div>
           <!-- /.box -->
-        </div>
+        	</div>
+      	</div>
       </div>
     </section>
   </div>

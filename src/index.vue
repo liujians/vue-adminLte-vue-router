@@ -1,6 +1,6 @@
 <!-- index.vue -->
 <template>
-  <div id="app" class="wrapper">
+  <div class="wrapper">
     <header class="main-header">
 
       <!-- Logo -->
@@ -154,9 +154,6 @@
           <li class="active">
             <router-link :to="{ path:'/' }">
               <i class="glyphicon glyphicon-home"></i> <span>主页</span>
-            <!--<span class="pull-right-container">-->
-              <!--<i class="fa fa-angle-left pull-right"></i>-->
-            <!--</span>-->
             </router-link>
             <!--<ul class="treeview-menu">-->
               <!--<li><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>-->
@@ -189,9 +186,9 @@
               </span>
             </a>
             <ul class="treeview-menu">
-              <li><router-link to="overtime_record"><i class="fa fa-circle-o"></i> 加班记录</a></li>
-              <li><router-link to="overtime_petitioner"><i class="fa fa-circle-o"></i> 加班申请</a></li>
-              <li><router-link to="overtime_pass"><i class="fa fa-circle-o"></i> 加班审批</a></li>
+              <li><router-link to="overtime_record"><i class="fa fa-circle-o"></i> 加班记录</router-link></li>
+              <li><router-link to="overtime_petitioner"><i class="fa fa-circle-o"></i> 加班申请</router-link></li>
+              <li><router-link to="overtime_pass"><i class="fa fa-circle-o"></i> 加班审批</router-link></li>
               <!--<li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> Morris</a></li>-->
               <!--<li><a href="pages/charts/flot.html"><i class="fa fa-circle-o"></i> Flot</a></li>-->
               <!--<li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i> Inline charts</a></li>-->
@@ -206,7 +203,7 @@
               </span>
             </a>
             <ul class="treeview-menu">
-              <li><router-link to="import_data"><i class="fa fa-circle-o"></i> 导入数据</a></li>
+              <li><router-link to="import_data"><i class="fa fa-circle-o"></i> 导入数据</router-link></li>
             </ul>
           </li>
           
